@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { isEmpty, isEqual } from 'lodash'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import { 
   Text, 
   View, 
@@ -84,8 +83,6 @@ const Login = ({ navigation }) => {
     const email = 'test@test.com'
     const pass = 12345678
 
-    const value = await AsyncStorage.getItem('User')
-    console.log('value,', value);
     if(isEqual(email, formValue.email) && isEqual(pass, Number(formValue.password))){
       setLoading(true)
       setTimeout(() => {

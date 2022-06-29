@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View, SafeAreaView, ImageBackground } from 'react-native'
+import { StyleSheet, View, SafeAreaView, ImageBackground } from 'react-native'
 
 import { ButtonPrimary } from '../../../components'
 import Fullbackgroud from '../../../assets/image/bg2.jpeg'
