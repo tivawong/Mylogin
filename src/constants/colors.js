@@ -1,0 +1,26 @@
+export const COLORS = {
+  PRIMARY: {
+    VIOLENT_VIOLET_PURPLE: '#2A0C57',
+    HEART2_PURPLE: '#6F20E5',
+    PRELUDE_PURPLE: '#CAB8E5',
+    BLUE: '#0a94df',
+    BLUE_BTN: '#3ebbff'
+  },
+  SECONDARY: {
+    RED:'#FF0000',
+  },
+  NEUTRAL: {
+    BLACK: '#000000',
+    GREY_DOLPHIN: '#757575',
+    GREY_BORDER_BUTTON: '#D1D5DB',
+    GREY_TONE_50: '#CBD5E0',
+    RIVER_BED: '#4B5563',
+    BRIGHT_GREY: '#595A5C',
+    PALE_SKY: '#6B7280',
+    GREY_LIGHT: '#C1BDBA',
+    STAR_DUST: '#989897',
+    WHITE_SMOKE: '#F5F5F5',
+    GREY_BG_DISABLED: '#E9E7E8',
+    WHITE: '#FFFFFF',
+  },
+}
